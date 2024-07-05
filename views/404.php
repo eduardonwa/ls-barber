@@ -1,6 +1,5 @@
 <?php require 'partials/head.php' ?>
 
-
     <main class="content-grid">
 
         <div class="not-found-msg breakout">

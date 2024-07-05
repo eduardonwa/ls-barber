@@ -24,5 +24,5 @@ class Database {
         $statement->execute();
 
         return $statement;
-    }
+    }    
 }
