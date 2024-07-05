@@ -1,4 +1,3 @@
-<!-- navbar -->
 <nav class="navbar">
     <a href="/">
         <img src=""
@@ -19,7 +18,7 @@
             class="toggle-btn"
             width="34"
             height="34"
-            src="/assets/img/burger-btn.svg"
+            src="img/burger-btn.svg"
             alt="sidebar menu">
     </div>
 </nav>

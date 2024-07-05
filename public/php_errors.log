@@ -1144,3 +1144,23 @@ Stack trace:
 [05-Jul-2024 18:20:09 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12
 [05-Jul-2024 18:20:10 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12
 [05-Jul-2024 18:20:17 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12
+[05-Jul-2024 19:41:33 UTC] PHP Warning:  Undefined variable $db in /root/websites/templates/dynamic/ls-barber/server/index.php on line 3
+[05-Jul-2024 19:41:39 UTC] PHP Warning:  Undefined variable $db in /root/websites/templates/dynamic/ls-barber/server/index.php on line 3
+[05-Jul-2024 19:48:19 UTC] PHP Warning:  Undefined array key "nombre" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 22
+[05-Jul-2024 19:48:19 UTC] PHP Warning:  Undefined array key "direccion" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 25
+[05-Jul-2024 19:48:19 UTC] PHP Warning:  Undefined array key "email" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 27
+[05-Jul-2024 19:49:03 UTC] PHP Warning:  Undefined array key "nombre" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 22
+[05-Jul-2024 19:49:03 UTC] PHP Warning:  Undefined array key "direccion" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 25
+[05-Jul-2024 19:49:03 UTC] PHP Warning:  Undefined array key "email" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 27
+[05-Jul-2024 19:49:04 UTC] PHP Warning:  Undefined array key "nombre" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 22
+[05-Jul-2024 19:49:04 UTC] PHP Warning:  Undefined array key "direccion" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 25
+[05-Jul-2024 19:49:04 UTC] PHP Warning:  Undefined array key "email" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 27
+[05-Jul-2024 20:04:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 82
+[05-Jul-2024 20:04:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 82
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12

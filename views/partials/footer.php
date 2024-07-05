@@ -2,14 +2,22 @@
 <footer class="footer full-width content-grid">
     <!-- contacto -->
     <section class="contacto" id="contacto">
-        <h2>Visítanos en [Dirección]</h2>
-        <p>Horario de Atención:</p>
 
-        <ul>
-            <li>Lunes a Viernes: 9:00 AM - 7:00 PM</li>
-            <li>Sábados: 9:00 AM - 5:00 PM</li>
-            <li>Domingos: Cerrado</li>
-        </ul>
+        <?php foreach ($negocio as $n) : ?>
+            <h2>Visítanos en <?= $n['direccion'] ?></h2>
+        <?php endforeach ?>
+            
+            <p>Horario de Atención:</p>
+
+        <?php foreach ($horario as $h) : ?>
+            <ul>
+                <li>
+                    <?= $h['dia']?>
+                    <?= $h['horario_abierto']?> -
+                    <?= $h['horario_cerrado']?>
+                </li>
+            </ul>
+        <?php endforeach ?>
 
         <ul class="footer-menu">
             <li>
@@ -42,17 +50,20 @@
 
     <!-- redes sociales -->
     <section class="redes-sociales">
-        <p>Síguenos en Redes Sociales</p>
+        <p>Síguenos en nuestras redes sociales</p>
         <ul>
-            <li>
-                <a href="https://www.facebook.com">
-                    <img
-                        width="34"
-                        height="34"
-                        src="/img/facebook-logo.svg"
-                        alt="">
-                </a>
-            </li>
+            <?php foreach ($enlaces as $e) :?>
+                <li>
+                    <a href="<?= $e['enlace']?>">
+                        <img
+                            width="34"
+                            height="34"
+                            src="/img/facebook-logo.svg"
+                            alt="">
+                    </a>
+                </li>
+            <?php endforeach ?>
+<!--             
             <li>
                 <a href="https://www.instagram.com">
                     <img
@@ -70,7 +81,9 @@
                         src="/img/x-logo.svg"
                         alt="">
                 </a>
-            </li>
+            </li> -->
         </ul>
     </section>
+
+
 </footer>

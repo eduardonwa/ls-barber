@@ -4,6 +4,7 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
     '/' => 'server/index.php',
+    '/notes' => 'server/notes.php',
 ];
 
 function routeToController($uri, $routes) {

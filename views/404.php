@@ -14,7 +14,7 @@
                 <img
                     width="22"
                     height="22"
-                    src="views/assets/img/flecha.svg">
+                    src="/img/flecha.svg">
                 Ir al inicio
             </a>
         </div>
