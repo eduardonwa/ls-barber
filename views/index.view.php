@@ -1,4 +1,5 @@
 <?php require base_path('views/partials/head.php') ?>
+
 <body>
     <?php require base_path('views/partials/nav.php') ?>
     <!-- main wrap -->
