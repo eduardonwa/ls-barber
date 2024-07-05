@@ -67,7 +67,8 @@ CREATE TABLE usuario (
     palabra_magica VARCHAR(60) NOT NULL,
     create_time DATETIME,
     update_time DATETIME,
-    CONSTRAINT pk_user_table PRIMARY KEY (id)
+    CONSTRAINT pk_usuario PRIMARY KEY (id),
+    UNIQUE KEY idx_user_email (email)
 );
 
 INSERT INTO usuario (usuario, email, palabra_magica, create_time) VALUES
