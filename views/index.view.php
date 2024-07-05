@@ -8,7 +8,9 @@
             <div class="hero-copy">
                 <h1>Tu Look, Nuestra Pasión.</h1>
                 <h2>Transforma tu Estilo con los Mejores Cortes en Barba(dos)</h2>
-                <button>Agenda una cita</button>
+                <a href="#reservaciones">
+                    <button>Agenda una cita</button>
+                </a>
             </div>
             <img
                 class="hero-img"

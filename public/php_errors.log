@@ -1164,3 +1164,212 @@ Stack trace:
 [05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
 [05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
 [05-Jul-2024 20:05:14 UTC] PHP Warning:  Array to string conversion in /root/websites/templates/dynamic/ls-barber/views/partials/footer.php on line 12
+[05-Jul-2024 20:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "Database" not found in /root/websites/templates/dynamic/ls-barber/server/index.php:5
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/router.php(12): require()
+#1 /root/websites/templates/dynamic/ls-barber/router.php(24): routeToController()
+#2 /root/websites/templates/dynamic/ls-barber/public/index.php(7): require('...')
+#3 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/server/index.php on line 5
+[05-Jul-2024 21:19:30 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../server/Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:19:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../server/Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:19:42 UTC] PHP Warning:  The use statement with non-compound name 'Database' has no effect in /root/websites/templates/dynamic/ls-barber/public/index.php on line 3
+[05-Jul-2024 21:19:42 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../server/Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:19:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../server/Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:07 UTC] PHP Warning:  The use statement with non-compound name 'Database' has no effect in /root/websites/templates/dynamic/ls-barber/public/index.php on line 3
+[05-Jul-2024 21:20:07 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:08 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:09 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:20:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:03 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:04 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:05 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:21:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:36 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:37 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:38 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:44 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:44 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:56 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:56 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:57 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:22:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 10
+[05-Jul-2024 21:23:16 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:16 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:16 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:30 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Core\router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Core\router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:30 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Core\router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Core\router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Core\router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Core\router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Core\router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Core\router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Core\router.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Core\router.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 8
+[05-Jul-2024 21:23:50 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting "," or ";" in /root/websites/templates/dynamic/ls-barber/public/index.php on line 5
+[05-Jul-2024 21:23:50 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting "," or ";" in /root/websites/templates/dynamic/ls-barber/public/index.php on line 5
+[05-Jul-2024 21:23:57 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting "," or ";" in /root/websites/templates/dynamic/ls-barber/public/index.php on line 5
+[05-Jul-2024 21:23:58 UTC] PHP Warning:  require(server/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:23:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'server/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:12
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(24): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:24:51 UTC] PHP Warning:  require(Http/controllers/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:24:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:12
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(24): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:24:51 UTC] PHP Warning:  require(Http/controllers/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:24:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:12
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(24): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 12
+[05-Jul-2024 21:25:20 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:21 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:31 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:31 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:55 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:55 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:25:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:11
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(23): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 11
+[05-Jul-2024 21:26:34 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 13
+[05-Jul-2024 21:26:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:13
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(25): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 13
+[05-Jul-2024 21:26:34 UTC] PHP Warning:  require(Http/controllers/index/index.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 13
+[05-Jul-2024 21:26:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Http/controllers/index/index.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/Core/router.php:13
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/Core/router.php(25): routeToController()
+#1 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#2 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/Core/router.php on line 13
