@@ -3,7 +3,7 @@
         <img 
             width="75"
             height="75"
-            src="views/assets/img/paquete-especial.svg"
+            src="/img/paquete-especial.svg"
             alt="">
     </div>
     <p>Paquetes Especiales para Eventos</p>

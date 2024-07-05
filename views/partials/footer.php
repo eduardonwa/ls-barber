@@ -49,7 +49,7 @@
                     <img
                         width="34"
                         height="34"
-                        src="views/assets/img/facebook-logo.svg"
+                        src="/img/facebook-logo.svg"
                         alt="">
                 </a>
             </li>
@@ -58,7 +58,7 @@
                     <img
                         width="34"
                         height="34"
-                        src="views/assets/img/instagram-logo.svg"
+                        src="/img/instagram-logo.svg"
                         alt="">
                 </a>
             </li>
@@ -67,7 +67,7 @@
                     <img
                         width="34"
                         height="34"
-                        src="views/assets/img/x-logo.svg"
+                        src="/img/x-logo.svg"
                         alt="">
                 </a>
             </li>

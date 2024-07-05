@@ -1,5 +1,4 @@
 <?php require base_path('views/partials/head.php') ?>
-
 <body>
     <?php require base_path('views/partials/nav.php') ?>
     <!-- main wrap -->
@@ -13,7 +12,7 @@
             </div>
             <img
                 class="hero-img"
-                src="assets/img/hero-img.webp"
+                src="/img/hero-img.webp"
                 alt="Imagen principal de la barbería">
         </header>
 
@@ -61,7 +60,7 @@
                         <img
                             width="25"
                             height="25"
-                            src="views/assets/img/flecha.svg"
+                            src="/img/flecha.svg"
                             alt="">
                     </a>
                 </p>
@@ -74,7 +73,7 @@
                 <div class="testimonio-elemento">
                     <div class="testimonio-img-wrapper">
                         <img
-                            src="views/assets/img/barber-testimonio.webp"
+                            src="/img/barber-testimonio.webp"
                             alt="Cliente feliz en Barbados"
                         >
                     </div>
@@ -84,7 +83,7 @@
                 <div class="testimonio-elemento">
                     <div class="testimonio-img-wrapper">
                         <img
-                            src="views/assets/img/barber-testimonio2.webp"
+                            src="/img/barber-testimonio2.webp"
                             alt="Cliente feliz en Barbados"
                         >
                     </div>
@@ -102,7 +101,7 @@
                 <div class="beneficios-elemento">
                     <div class="beneficio-img-wrapper">
                         <img
-                            src="views/assets/img/beneficios-img.webp"
+                            src="/img/beneficios-img.webp"
                             alt=""
                         >
                     </div>
@@ -114,7 +113,7 @@
                 <div class="beneficios-elemento">
                     <div class="beneficio-img-wrapper">
                         <img
-                            src="views/assets/img/beneficios-img2.webp"
+                            src="/img/beneficios-img2.webp"
                             alt=""
                         >
                     </div>
@@ -136,7 +135,7 @@
                         <img
                             width="75"
                             height="75"
-                            src="views/assets/img/cortes-clasicos-modernos.svg"
+                            src="/img/cortes-clasicos-modernos.svg"
                             alt="">
                     </div>
                     <p>Cortes de Cabello Clásicos y Modernos</p>
@@ -147,7 +146,7 @@
                         <img
                             width="75"
                             height="75"
-                            src="views/assets/img/tratamiento-capilares.svg"
+                            src="/img/tratamiento-capilares.svg"
                             alt="">
                     </div>
                     <p>Tratamientos Capilares</p>

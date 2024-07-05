@@ -1096,3 +1096,51 @@ Stack trace:
 [05-Jul-2024 17:49:00 UTC] PHP Parse error:  syntax error, unexpected token ";" in /root/websites/templates/dynamic/ls-barber/views/index.view.php on line 7
 [05-Jul-2024 17:57:52 UTC] PHP Parse error:  Unclosed '(' in /root/websites/templates/dynamic/ls-barber/server/index.php on line 4
 [05-Jul-2024 17:59:19 UTC] PHP Parse error:  Unclosed '(' on line 3 in /root/websites/templates/dynamic/ls-barber/server/index.php on line 4
+[05-Jul-2024 18:14:08 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:14:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:14:08 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:14:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:14:09 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/../Database.php): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:14:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/../Database.php' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/public/index.php on line 7
+[05-Jul-2024 18:15:13 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/..//styles.css): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:15:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/..//styles.css' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/views/partials/head.php:7
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/views/index.view.php(1): require()
+#1 /root/websites/templates/dynamic/ls-barber/server/index.php(3): require('...')
+#2 /root/websites/templates/dynamic/ls-barber/router.php(11): require('...')
+#3 /root/websites/templates/dynamic/ls-barber/router.php(23): routeToController()
+#4 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#5 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:15:14 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/..//styles.css): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:15:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/..//styles.css' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/views/partials/head.php:7
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/views/index.view.php(1): require()
+#1 /root/websites/templates/dynamic/ls-barber/server/index.php(3): require('...')
+#2 /root/websites/templates/dynamic/ls-barber/router.php(11): require('...')
+#3 /root/websites/templates/dynamic/ls-barber/router.php(23): routeToController()
+#4 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#5 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:15:15 UTC] PHP Warning:  require(/root/websites/templates/dynamic/ls-barber/public/..//styles.css): Failed to open stream: No such file or directory in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:15:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/root/websites/templates/dynamic/ls-barber/public/..//styles.css' (include_path='.:/usr/share/php') in /root/websites/templates/dynamic/ls-barber/views/partials/head.php:7
+Stack trace:
+#0 /root/websites/templates/dynamic/ls-barber/views/index.view.php(1): require()
+#1 /root/websites/templates/dynamic/ls-barber/server/index.php(3): require('...')
+#2 /root/websites/templates/dynamic/ls-barber/router.php(11): require('...')
+#3 /root/websites/templates/dynamic/ls-barber/router.php(23): routeToController()
+#4 /root/websites/templates/dynamic/ls-barber/public/index.php(8): require('...')
+#5 {main}
+  thrown in /root/websites/templates/dynamic/ls-barber/views/partials/head.php on line 7
+[05-Jul-2024 18:20:09 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12
+[05-Jul-2024 18:20:10 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12
+[05-Jul-2024 18:20:17 UTC] PHP Warning:  Constant BASE_PATH already defined in /root/websites/templates/dynamic/ls-barber/functions.php on line 12

@@ -1,7 +1,7 @@
 <div class="beneficios-elemento">
     <div class="beneficio-img-wrapper">
         <img
-            src="views/assets/img/beneficios-img3.webp"
+            src="/img/beneficios-img3.webp"
             alt=""
         >
     </div>

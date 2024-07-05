@@ -1,7 +1,7 @@
 <div class="testimonio-elemento">
     <div class="testimonio-img-wrapper">
         <img
-            src="views/assets//img/barber-testimonio3.webp"
+            src="/img/barber-testimonio3.webp"
             alt="Cliente feliz en Barbados"
         >
     </div>
